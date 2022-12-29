@@ -1,0 +1,271 @@
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  html {overflow-x: hidden;}
+  body {
+    width: 100%;
+    display: flex;flex-direction: column;
+    background-color: white;
+    margin: 0 auto;
+  }
+  /* Логотип */
+  .container00{
+    width: 1280px;
+    position:relative;
+    margin: 0 auto;
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+  }
+  .logo {
+    width: 897px;
+    height: 170px;
+    background-image: url(../images/logo01.svg);
+    background-size: auto 100%;
+    animation: logomove 5s steps(1) infinite;
+  }
+  @keyframes logomove {
+    0% {background-position: 0px top;}
+    25% {background-position: -897px top;}
+    50% {background-position: -1794px top;}
+    75% {background-position: -2691px top;}
+    100% {background-position:-3588px top;}
+  }
+  .block01 {
+    width: 1280px;
+    display:flex;
+    height: 580px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .row01{
+    width: 3040px;
+    height: 130px;
+    background-image: url(../images/row01.svg);
+    position: absolute;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    animation: row01move 4s linear infinite;
+  }
+  @keyframes row01move {
+    0% {left: 0px}
+    100% {left: -1760px;}
+  }
+  .row02{
+    width: 3273px;
+    height: 130px;
+    background-image: url(../images/row02.svg);
+    position: absolute;
+    top: 150px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    animation: row02move 4s linear infinite;
+  }
+  @keyframes row02move {
+    0% {right: 0px}
+    100% {right: -1710px}
+  }
+  .row03 {
+    width: 3222px;
+    height: 130px;
+    background-image: url(../images/row03.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    top: 300px;
+    animation: row03move 4.2s linear infinite;
+  }
+  @keyframes row03move {
+    0% {left: 0px}
+    100% {left: -1675px}
+  }
+  .row04 {
+    width: 3136px;
+    height: 130px;
+    background-image: url(../images/row04.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    top: 450px;
+    animation: row04move 4s linear infinite;
+  }
+  @keyframes row04move {
+    0% {right: 0px}
+    100% {right: -1866px}
+  }
+/* Линия00 */
+  .line00 {
+    width: 1280px;
+    height: 195px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-image: url(../images/line-12.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+  .line00:hover {
+    background-image: url(../images/line-13.svg);
+    transition: .2s all;
+  }
+/* Ховер_строка */
+  .container01 {
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: hidden;
+  }
+  .block02{
+    width: 2995px;
+    display: flex;
+    justify-content: space-around;
+    animation: b2move 4s linear infinite;
+  }
+  .block02:hover{
+    animation-play-state: paused;
+  }
+  .item00 {
+    width: 575px;
+    height: 575px;
+    background-image: url(../images/item00.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    /* margin-right: 30px; */
+  }
+  .item00:hover{
+    animation: itm00change 1s steps(1) infinite;
+  }
+  .item01 {
+    width: 575px;
+    height: 575px;
+    background-image: url(../images/item01.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    /* margin-right: 30px; */
+  }
+  .item01:hover{
+    animation: itm01change 1s steps(1) infinite;
+  }
+  @keyframes b2move {
+    0% {margin-left: 0;}
+    100% {margin-left: -1787px;}
+  }
+  @keyframes itm00change {
+    0% {background-image: url(../images/item00_01.svg);}
+    50% {background-image: url(../images/item00_02.svg);}
+    100% {background-image: url(../images/item00_03.svg);}
+  }
+  @keyframes itm01change {
+    0% {background-image: url(../images/item01_01.svg);}
+    50% {background-image: url(../images/item01_02.svg);}
+    100% {background-image: url(../images/item01_03.svg);}
+  }
+/* Линия02 */
+  .line01{
+    width: 1280px;
+    height: 195px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: hidden;
+  }
+  .ticker{
+    width: 2720px;
+    height: 195px;
+    position: absolute;
+    background-image: url(../images/ticker01.svg);
+    animation: tickermove 4s linear infinite;
+  }
+  @keyframes tickermove {
+    0% {left: 0px}
+    100% {left: -1440px;}
+  }
+  .ticker:hover {
+    background-image: url(../images/ticker02.svg);
+    transition: .2s all;
+  }
+  /* Ховер_иконки */
+  .block03{
+    width: 1059px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .icon00 {
+    width: 128px;
+    height: 128px;
+    background-image: url(../images/icon_sad.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+  }
+  .icon00:hover{
+    background-image: url(../images/icon_smile.svg);
+    transition: .2s all;
+  }
+  .icon01 {
+    width: 128px;
+    height: 128px;
+    background-image: url(../images/icon_wind.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+  }
+  .icon01:hover{
+    background-image: url(../images/icon_ship.svg);
+    transition: .2s all;
+  }
+  .icon02 {
+    width: 128px;
+    height: 128px;
+    background-image: url(../images/icon_mute.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+  }
+  .icon02:hover{
+    background-image: url(../images/icon_music.svg);
+    transition: .2s all;
+  }
+  .icon03 {
+    width: 128px;
+    height: 128px;
+    background-image: url(../images/icon_tear.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+  }
+  .icon03:hover{
+    background-image: url(../images/icon_umbrella.svg);
+    transition: .2s all;
+  }
+  .icon04 {
+    width: 128px;
+    height: 128px;
+    background-image: url(../images/icon_eye.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+  }
+  .icon04:hover{
+    background-image: url(../images/icon_heart.svg);
+    transition: .2s all;
+  }
+  .icon05 {
+    width: 128px;
+    height: 128px;
+    background-image: url(../images/icon_storm.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+  }
+  .icon05:hover{
+    background-image: url(../images/icon_sun.svg);
+    transition: .2s all;
+  }
+}
